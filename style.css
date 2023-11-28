@@ -1,0 +1,135 @@
+@import url("https://fonts.google.com/specimen/Hanken+Grotesk");
+
+body{
+    background-color: #eddfdf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+/* @import url('https://fonts.google.com/specimen/Hanken+Grotesk');
+body {
+  font-family : "roboto";
+} */
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: #ffffff;
+    border-radius: 15px;
+    /* max-width: 375px; */
+    display: flex;
+    max-width: 450px;
+    flex-wrap: wrap;
+
+
+}
+
+.container1{
+    flex:2;
+    padding: 5px;
+    flex-wrap: nowrap;
+    border-radius: 15px;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    
+}
+
+.container2{
+    flex:2;
+    color: #000;
+}
+
+#header,#value-bold,#greating,#description,#outof{
+    text-align: center;
+
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* padding-top: 40px; */
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+#value-bold{
+    font-size: 40px;
+    
+}
+.circle, #outof{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+ul{
+    padding: 10px;
+}
+
+li{
+    list-style: none;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    
+}
+img,li{
+    display: flex;
+    gap: 5px;
+}
+
+.primary{
+    /* padding: 15px;
+    border-radius: 15px;
+    border: none;
+    background: hsl(224, 30%, 27%); */
+
+
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    width: 100%;
+    background: hsl(224, 30%, 27%);
+
+}
+.summary{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.or{background: hsl(0, 100%, 67%,0.1);}
+.gr{background: hsl(39, 100%, 56%,0.1);}
+.vi{ background: hsl(166, 100%, 37%,0.1);}
+.li{background:  hsl(234, 85%, 45%,0.1);}
+
+
+.li, .vi, .gr, .or{
+    border:none;
+    font-size: 15px;
+}
+.summary{
+    margin-left: 4px;
+}
+
+#outof,#header,#description{
+    color: hsl(241, 100%, 89%);
+}
+
+span{
+    color:hsl(0, 100%, 67%) ;
+}
+
+
+#yel{color: hsl(39, 100%, 56%)}
+#gre{color: hsl(166, 100%, 37%)}
+#vio{
+    color: hsl(234, 85%, 45%)
+}
